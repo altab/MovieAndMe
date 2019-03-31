@@ -10,7 +10,7 @@ class Search extends React.Component {
 
     constructor(props){
         super(props)
-        this._films = []
+        this.state = { films: [] }
 
     }
 
