@@ -2,9 +2,9 @@
   "devToolsPort": 19002,
   "expoServerPort": 19000,
   "packagerPort": 19001,
-  "packagerPid": 810,
+  "packagerPid": 10900,
   "expoServerNgrokUrl": "https://s8-p7g.anonymous.movieandme.exp.direct",
   "packagerNgrokUrl": "https://packager.s8-p7g.anonymous.movieandme.exp.direct",
-  "ngrokPid": 836,
+  "ngrokPid": 10920,
   "webpackServerPort": null
 }
