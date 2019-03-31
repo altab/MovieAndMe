@@ -70,7 +70,7 @@ class Search extends React.Component {
                     onChangeText={(text) => this._searchTextInputChanged(text)} 
                     onSubmitEditing={() => this._searchFilms()}
                 />
-                <Button title='Rechercher' onPress={() => this._searchFilms()} />
+                <Button style={ styles.search_button} title='Rechercher' onPress={() => this._searchFilms()} />
                 <FlatList
                     data={this.state.films}
                     keyExtractor={(item) => item.id.toString()}
@@ -95,6 +95,11 @@ const styles = StyleSheet.create({
     main_container: {
         flex: 1,
         marginTop: 40
+    },
+    search_button: {
+        marginTop: 5,
+        marginLeft: 5,
+        marginRight: 5
     },
     textinput: {
         marginLeft: 5, 
