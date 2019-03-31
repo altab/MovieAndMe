@@ -38,6 +38,7 @@ class Search extends React.Component {
                     placeholder="Titre du film" 
                     style={styles.textinput} 
                     onChangeText={(text) => this._searchTextInputChanged(text)} 
+                    onSubmitEditing={() => this._loadFilms()}
                 />
                 <Button title='Rechercher' onPress={() => this._loadFilms()} />
                 <FlatList
